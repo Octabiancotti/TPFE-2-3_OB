@@ -1,0 +1,4 @@
+##Problemas:
+Javascript: costo tanto para los dos ya que me quedaba bloqueado en como mostrar el resultado o como mostrar primero el formulario y despues el calculador de promedios, Hasta que le pregunte a la IA si iba bien y ahi vi que podia utilizar la funcion de escucha mas arrowfuction, etc. Si bien estoy practicando aun espero en el futuro crear estos codigos sin la gran ayuda de la IA aunque tampoco desprestigio que en el futuro probablemente los codigos del futuro seran 99% creados por la IA.
+
+Css: Es siempre mas complicado de lo que parece, aunque hoy no utlize mucho para el practico me imagino que a la hora de desarrollar una web no debe ddejarlo uno siempre al ultimo 
