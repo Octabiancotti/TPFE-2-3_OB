@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="stylepagina.css">
+    
+</head>
+<body>
+    
+    <div id="formulario-ingreso">
+        <h1>Bienvenido a calcula tu promedio</h1>
+        <h2>Inicia sesion</h2>
+        <form onsubmit="mostrarFormularioNotas(event)"> 
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br><br>
+            
+            <label for="legajo">Legajo:</label><br>
+            <input type="text" id="legajo" name="legajo" required><br><br>
+            
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+    <div id="formulario-notas" style="display:none;">
+        <h1>Ingresa las materias y notas</h1>
+        <form onsubmit="calcularPromedio(event)">
+            <table border="1">
+                <tr>
+                    <th>Materia</th>
+                    <th>Nota</th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="materia1" name="materia1" required></td>
+                    <td><input type="number" id="nota1" name="nota1" step="0.01" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="materia2" name="materia2" required></td>
+                    <td><input type="number" id="nota2" name="nota2" step="0.01" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="materia3" name="materia3" required></td>
+                    <td><input type="number" id="nota3" name="nota3" step="0.01" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="materia4" name="materia4" required></td>
+                    <td><input type="number" id="nota4" name="nota4" step="0.01" required></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="materia5" name="materia5" required></td>
+                    <td><input type="number" id="nota5" name="nota5" step="0.01" required></td>
+                </tr>
+            </table><br>
+            <input type="submit" value="Calcular Promedio">
+        </form>
+        <p id="resultado"></p>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
