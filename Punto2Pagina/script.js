@@ -17,5 +17,5 @@ function calcularPromedio(event) {
     }
     let suma = notas.reduce((a, b) => a + b, 0);
     let promedio = suma / notas.length;
-    document.getElementById('resultado').innerText = 'El promedio del alumno es: ' + promedio.toFixed(2);
+    document.getElementById('resultado').innerText = 'Su promedio escolar es: ' + promedio.toFixed(2);
 }

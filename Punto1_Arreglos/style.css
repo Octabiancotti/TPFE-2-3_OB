@@ -1,0 +1,50 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los div se ajusten a la siguiente línea */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea los div al principio verticalmente */
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 0 0 300px; /* Ancho fijo de 300px para cada div */
+}
+
+button {
+    background-color: #00bfff; /* Color celeste */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #00b2ee; /* Color celeste más oscuro al pasar el mouse */
+}
+
+#result, #resultadosuma, #promedionum, #minmax, #eliminarnum, #numagregado, #maymin2, #invert {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-weight: bold;
+}
