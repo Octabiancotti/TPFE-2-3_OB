@@ -1,4 +1,8 @@
-import React from 'react'
+const Emoji = () => {
+  return (
+    <p>😊</p>
+  )
+}
 
 export const GeneradorEmojis = () => {
   return (
