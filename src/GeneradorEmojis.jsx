@@ -6,6 +6,9 @@ const Emoji = () => {
 
 export const GeneradorEmojis = () => {
   return (
-    <div>GeneradorEmojis</div>
+    <>
+    <h1>Generador emojis</h1>
+    <h4>Este emoji deberia cambiar: 🤦‍♂️(proximamente)</h4>
+    </>
   )
 }

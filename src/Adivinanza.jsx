@@ -1,7 +1,12 @@
-import React from 'react'
+
 
 export const Adivinanza = () => {
   return (
-    <div>Adivinanza</div>
+
+    <>
+    <h1>Adivina el numero</h1>
+    
+    
+    </>
   )
 }

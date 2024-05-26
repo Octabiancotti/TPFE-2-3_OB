@@ -1,8 +1,12 @@
-import { useState } from "react"
+
 
 export const GeneradorColores = () => {
   return (
-    <div>GeneradorColores</div>
+    <>
+    <h1>GeneradorColores</h1>
+    <h4>Aqui deberia haber un cuadrado</h4>
+    
+    </>
   )
 }
 
